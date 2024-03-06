@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="form-title">Registration</h1>
+      <form action="#" onsubmit="return data()">
+        <div class="main-user-info">
+          <table class="table-main">
+            <tbody>
+              <tr>
+                <td>
+                  <label for="fullname">Full Name</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    placeholder="Enter Your Full Name"
+                  />
+                  <span id="fname_er"> </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="username">Full Username</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Enter Username"
+                  />
+                  <span id="user_er"></span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="email">Email</label>
+                </td>
+                <td>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter Email"
+                  />
+                  <span id="email_er"></span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="phonenumber">Phonenumber</label>
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    name="phonenumber"
+                    id="phonenumber"
+                    placeholder="Enter Phonenumber"
+                  />
+                  <span id="phone_er"> </span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="password">Password</label>
+                </td>
+                <td>
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Enter Password"
+                  />
+                  <span id="password_er"> </span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="confirmPassword">Confirm Password</label>
+                </td>
+                <td>
+                  <input
+                    type="password"
+                    name="confirmPassword"
+                    id="confirmPassword"
+                    placeholder="Enter Confirm Password"
+                  />
+                  <span id="confirmapssword_er"> </span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label class="gender-title">Gender</label>
+                </td>
+                <td>
+                  <input type="radio" name="gender" id="male" />
+                  <label for="male">Male</label>
+                  <input type="radio" name="gender" id="female" />
+                  <label for="female">Female</label>
+                  <input type="radio" name="gender" id="other" />
+                  <label for="other">Other</label>
+
+                  <span id="gender_er"> </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="form-submit-btn">
+            <input class="btn" type="submit" value="Register" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -37,7 +37,6 @@ function data() {
   console.log(male.value);
   console.log(female.value);
   console.log(other.value);
-  // console.log("myvalidtion");
 
   if (fullname.value == "") {
     // console.log("enter your fullname");
@@ -92,6 +91,25 @@ function data() {
     gender_er.innerHTML = "Please select gender";
   } else {
     gender_er.innerHTML = "";
+  }
+
+//   console.log(fname_er.innerHTML);
+//   console.log(user_er.innerHTML);
+//   console.log(email_er.innerHTML);
+//   console.log(phone_er.innerHTML);
+//   console.log(password_er.innerHTML);
+//   console.log(confirmapssword_er.innerHTML);
+//   console.log(gender_er.innerHTML);
+  if (
+    fname_er.innerHTML == " " &&
+    user_er.innerHTML == " " &&
+    email_er.innerHTML == " " &&
+    phone_er.innerHTML == "" &&
+    password_er.innerHTML == " " &&
+    confirmapssword_er.innerHTML == "" &&
+    gender_er.innerHTML == ""
+  ) {
+    console.log("ygvftfcrt7ctc");
   }
 
   return false;

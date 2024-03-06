@@ -48,6 +48,7 @@ body {
 .btn {
   background-color: #eec759;
   padding: 10px 10px;
+  cursor: pointer;
 }
 
 span {

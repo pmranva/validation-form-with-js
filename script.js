@@ -88,15 +88,6 @@ function data() {
     confirmapssword_er.innerHTML = " ";
   }
 
-  // if( male.checked!=true||
-  //     female.checked!=true||
-  //     other.checked!=true){
-  //     gender_er.innerHTML = "please select gender"
-  // }
-  // else {
-  //     gender_er.innerHTML = " "
-  // }
-
   if (!male.checked && !female.checked && !other.checked) {
     gender_er.innerHTML = "Please select gender";
   } else {
